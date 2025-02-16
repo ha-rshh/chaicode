@@ -48,7 +48,7 @@ console.log(result);
 let anotherArray = sumFactor([3, 6, 9, 3, 7, 3, 7, 6]);
 console.log(`My result of anotherArrays: ${anotherArray}`);
 
-// * ARRAY MACHINE CODING
+//* ARRAY MACHINE CODING
 
 // Problem: Create an array containing different types of teas.
 
@@ -88,34 +88,34 @@ for (let i = 0; i < teas.length; i++) {
 
 // Use a for loop to count how many teas are caffeinated ("excluding Hearbal Tea")
 let caffTeas = [];
-let count = 0
+let count = 0;
 for (let i = 0; i < teas.length; i++) {
   if (teas[i] !== "Herbal Tea") {
     caffTeas.push(teas[i]);
-    count++
+    count++;
   }
 }
 console.log(caffTeas, count);
 // use a for loop to create a new array with all tea names is uppercase.
 
-const upperCase = []
-for(let i = 0; i < teas.length ; i++){
-  upperCase.push(teas[i].toUpperCase())
+const upperCase = [];
+for (let i = 0; i < teas.length; i++) {
+  upperCase.push(teas[i].toUpperCase());
 }
-console.log(upperCase)
+console.log(upperCase);
 
-//! Use a for loop ot find tea name with the most characters.
+// Use a for loop ot find tea name with the most characters. !important
 
-let longestTea = ""
-for( let i = 0; i< teas.length ; i++){
-  if(teas[i].length > longestTea.length){
-    longestTea = teas[i]
+let longestTea = "";
+for (let i = 0; i < teas.length; i++) {
+  if (teas[i].length > longestTea.length) {
+    longestTea = teas[i];
   }
 }
 
 // use a for loop to reverse the order of teas in the array
-let newArr = []
-for(let i = teas.length - 1; i >= 0; i--){
-    newArr.push(teas[i])
+let newArr = [];
+for (let i = teas.length - 1; i >= 0; i--) {
+  newArr.push(teas[i]);
 }
-console.log(newArr)
+console.log(newArr);
