@@ -58,4 +58,5 @@ let charger = remote;
 
 charger.color = "black";
 
-console.log(remote.color);
+console.log(remote.
+console.log(remote.color)
